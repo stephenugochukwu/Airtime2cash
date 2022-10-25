@@ -1,0 +1,87 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/admin/all my tasks/week10/live-project-frontend-pod_d/package.json: Unexpected token < in JSON at position 501
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "live-project-frontend-pod_d",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "axios": "^0.27.2",
+      "formik": "^2.2.9",
+      "jwt-decode": "^3.1.2",
+      "react": "^18.2.0",
+      "react-copy-to-clipboard": "^5.1.0",
+      "react-dom": "^18.2.0",
+      "react-elastic-carousel": "^0.11.5",
+      "react-icons": "^4.4.0",
+      "react-is": "^18.2.0",
+  <<<<<<< HEAD
+      "react-modal": "^3.15.1",
+  =======
+      "react-loader-spinner": "^5.3.4",
+  >>>>>>> 5de6ddebe28a04a8cad52adb0754bb77a07b91e1
+      "react-router-dom": "^6.4.0",
+      "react-scripts": "5.0.1",
+      "react-select": "^5.4.0",
+      "react-toastify": "^9.0.8",
+      "select": "^1.1.2",
+      "styled-components": "^5.3.5",
+      "sweetalert2": "^11.4.33",
+      "web-vitals": "^2.1.4",
+      "yup": "^0.32.11"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
